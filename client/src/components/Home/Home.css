@@ -1,0 +1,141 @@
+body {
+    box-sizing: border-box;
+    background-color: #e0b0ff;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #111010;
+    flex-direction: column;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-down {
+    display: flex;
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.buttons-navbar{
+    margin-right: 2%;
+}
+
+.site-title {
+    margin-top: 12px;
+    margin-left: 2%;
+    font-size: 45px;
+    text-decoration: none;
+    color: #fe0ab7;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: transparent;
+    margin-left: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.btn-create{
+    border: 2.3px solid #d0ccd1;
+    color: #d0ccd1;
+    font-size: 12px;
+    margin-left: -2px;
+    margin-bottom: 2px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.btn-reset {
+    border: 2.3px solid #e9ff88;
+    color: #e9ff88;
+    font-size: 12px;
+    margin-left: -2px;
+    margin-bottom: 2px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.btn-create:hover{
+    box-shadow: 2px 2px 15px #d0ccd1 inset;
+}
+
+.btn-create:active{
+    box-shadow: 2px 2px 20px #d0ccd1 inset;
+}
+
+.btn-reset:hover{
+    box-shadow: 2px 2px 15px #e9ff88 inset;
+}
+
+.btn-reset:active{
+    box-shadow: 2px 2px 20px #e9ff88 inset;
+}
+
+.filter-genre, .filter-order, .filter-rating, .filter-info {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    min-width: 180px;
+    margin: 0 auto;
+    border: 1px solid #3C1C78;
+    background-color: #16013E;
+    z-index: 10;
+    margin-bottom: 3px;
+  }
+  
+.container-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1%;
+    margin: 20px;
+  }
+    
+select{
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 9px;
+    color: #714BB9;
+    font-family: 'Press Start 2P', cursive;
+}
+  
+option {
+    font-size: 10px;
+    margin: 10px;
+}
+
+.List_Cards{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

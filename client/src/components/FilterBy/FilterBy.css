@@ -1,0 +1,46 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  color:#d9b0ff;
+}
+
+.filter-genre, .filter-order, .filter-rating, .filter-info{
+  position: relative;
+  display: block;
+  max-width: 400px;
+  min-width: 180px;
+  margin: 0 auto;
+  border: 1px solid #3C1C78;
+  background-color: #16013E;
+  z-index: 10;
+  margin-bottom: 3px;
+}
+
+.container-filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1%;
+  margin: 20px;
+}
+  
+select{
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 9px;
+    color: #714BB9;
+    font-family: 'Press Start 2P', cursive;
+}
+
+option {
+  font-size: 10px;
+  margin: 10px;
+}
